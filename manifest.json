@@ -1,0 +1,58 @@
+{
+  "name": "TRA Smart Revenue Hub",
+  "short_name": "TRA Smart Hub",
+  "description": "Official-style TRA digital revenue platform for taxpayer registration, tax calculation, payment, digital receipts, and service tracking across Tanzania.",
+  "id": "/tra-revenue-hub/",
+  "start_url": "/tra-revenue-hub/index.html",
+  "scope": "/tra-revenue-hub/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#f6f7fb",
+  "theme_color": "#f4c400",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["finance", "government", "business"],
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Pay Tax",
+      "short_name": "Pay",
+      "description": "Go directly to the tax payment form",
+      "url": "/tra-revenue-hub/index.html#prototype",
+      "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "Open the revenue dashboard",
+      "url": "/tra-revenue-hub/dashboard.php",
+      "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

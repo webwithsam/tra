@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f6f7fb;
+  margin: 0;
+  padding: 24px;
+  color: #111;
+}
+
+.card {
+  max-width: 980px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.08);
+  border-top: 6px solid #f4c400;
+}
+
+.brand {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.brand img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.brand h1 {
+  margin: 0;
+}
+
+.brand p {
+  margin: 4px 0 0;
+  color: #555;
+}
+
+label {
+  display: block;
+  margin-top: 14px;
+  font-weight: 700;
+}
+
+input, select, textarea, button {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  margin-top: 6px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 20px;
+  background: #111;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+button:hover {
+  background: #000;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.panel {
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 16px;
+  background: #fff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+  font-size: 14px;
+}
+
+.status-success {
+  color: #0f8b4c;
+  font-weight: 700;
+}
+
+.status-pending {
+  color: #b45309;
+  font-weight: 700;
+}
+
+.status-failed {
+  color: #b91c1c;
+  font-weight: 700;
+}
+
+.actions a {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  background: #111;
+  color: #fff;
+}
+
+.muted {
+  color: #6b7280;
+}
